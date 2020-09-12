@@ -1,0 +1,26 @@
+.box_container {
+  width: 300px;
+  height: 270px;
+}
+.tabBar>input {
+  width: 70px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+}
+.active {
+  background-color: red !important;
+}
+.content_box {
+  width: 200px;
+  height: 200px;
+}
+.content_box > div {
+  display: none;
+}
+.current {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: block !important;
+}
